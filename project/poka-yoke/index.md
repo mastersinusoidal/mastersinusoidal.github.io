@@ -19,7 +19,7 @@ permalink: /project/poka-yoke/
       max-width: 800px; /* Set a maximum width for large screens */
       padding: 20px; /* Add padding around the content */
       background-color: #fff; /* Background color for the content area */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+      box-shadow: 0 0 0px rgba(0, 0, 0, 0); /* Add a subtle shadow */
   }
 
   h1, h2, h3 {
