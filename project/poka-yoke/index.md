@@ -12,7 +12,7 @@ permalink: /project/poka-yoke/
             height: auto; /* Maintain aspect ratio */
         }
      .caption {
-            font-family: 'Arial', sans-serif; /* Change this to any font you prefer */
+            font-family: 'Lato', sans-serif; /* Change this to any font you prefer */
             font-size: 14px;
             text-align: center;
             margin-top: 10px;
