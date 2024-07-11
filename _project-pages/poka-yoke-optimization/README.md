@@ -1,3 +1,8 @@
+---
+layout: page
+title: Poka Yoke Optimization
+---
+
 # Optimization of Tractor Production Through Strategic Poka-Yoke Implementation
 
 ## Overview
