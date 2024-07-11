@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Poka Yoke Optimization
+css: /css/project-pages.css
 ---
 
 # Optimization of Tractor Production Through Strategic Poka-Yoke Implementation
