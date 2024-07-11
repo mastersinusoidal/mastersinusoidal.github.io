@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Gaurav Joshi
 permalink: /project/poka-yoke/
 ---
 
