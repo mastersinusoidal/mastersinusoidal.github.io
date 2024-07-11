@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /project/poka-yoke/
 ---
 <!-- Link to the custom CSS file -->
 <link rel="stylesheet" type="text/css" href="/assets/css/style.scss">
