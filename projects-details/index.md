@@ -6,11 +6,11 @@ title: My Projects
 # My Projects
 
 {% for project in site.data.projects %}
-## {{ projects.title }}
+## {{ project.title }}
 
-{{ projects.description }}
+{{ project.description }}
 
-- {% for detail in projects.details %}{{ detail }}{% if forloop.last == false %},{% endif %}{% endfor %}
+- {% for detail in project.details %}{{ detail }}{% if forloop.last == false %},{% endif %}{% endfor %}
 
 Link to Project
 {% endfor %}
