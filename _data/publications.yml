@@ -1,5 +1,4 @@
-main:
-
+    main:
   - title: "Prediction of angular distortion in austenitic stainless steel welds using finite element analysis"
     authors: Gaurav Joshi, A.S. Shahi
     conference_short: Materials Today: Proceedings
@@ -8,3 +7,4 @@ main:
     bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/teaser_example_2.png
     notes: Published
+
