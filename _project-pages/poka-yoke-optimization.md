@@ -1,3 +1,8 @@
+---
+layout: page
+title: About
+---
+
 # Optimization of Tractor Production Through Strategic Poka-Yoke Implementation
 
 ## Overview
