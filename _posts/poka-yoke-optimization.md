@@ -14,4 +14,4 @@ This project involved the strategic implementation of **poka-yokes** in a produc
 
 - **Collaboration with Programming and Stores Teams**: Worked closely with the programming and stores teams to improve part identification, stacking, and tagging methods. This significantly mitigated the risk of incorrect part feeding.
 
-- **Training of Operators**: Conducted training for operators on the new system. This led to enhanced production efficiency, reduced complaint reports, and improved product quality and customer satisfaction.
+- **Training of Operators**: Conducted training for operators on the new system. This led to enhanced production efficiency, reduced complaint reports, and improved product quality and customer satisfaction
