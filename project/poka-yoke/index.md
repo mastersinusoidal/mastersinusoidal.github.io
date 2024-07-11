@@ -28,11 +28,12 @@ permalink: /project/poka-yoke/
   }
 
   p {
+      text-align: justify;
       margin-bottom: 15px; /* Set bottom margin for paragraphs */
   }
 
   a {
-      color: #0056b3;
+      color: #000000;
       text-decoration: none;
   }
 
