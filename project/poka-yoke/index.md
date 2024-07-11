@@ -7,7 +7,7 @@ permalink: /project/poka-yoke/
 <!-- Inline CSS for customization -->
 <style>
     .responsive-img {
-            width: 100%;
+            width: 65%;
             max-width: 800px; /* Maximum width for larger screens */
             height: auto; /* Maintain aspect ratio */
         }
