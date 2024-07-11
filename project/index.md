@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permalink: /project/poka-yoke/
+
 ---
 
 # Welcome to My GitHub Pages Site
