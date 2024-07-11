@@ -57,19 +57,34 @@ permalink: /project/poka-yoke/
   }
 </style>
 
-<div class="content">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subpage 1</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+</head>
+<body>
+    <div class="content" id="content"></div>
 
-# Optimization of Tractor Production through Strategic Poka-Yoke Implementation
+    <script>
+        // Function to load content from an external file
+        function loadContent() {
+            fetch('content.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('content').innerHTML = data;
+                })
+                .catch(error => console.error('Error loading content:', error));
+        }
 
-**Devised and implemented poka-yokes** in a production facility handling over 100 tractor variants. Developed a **barcode scanning system** for part verification and integrated a comprehensive database with **SAP’s BOM**. Collaborated with programming and stores teams to improve part identification, stacking, and tagging methods. This significantly mitigated the risk of incorrect part feeding.
+        // Load the content when the page loads
+        window.onload = loadContent;
+    </script>
+</body>
+</html>
 
-**Training of operators** on the new system led to:
-- Enhanced production efficiency
-- Reduced complaint reports
-- Improved product quality
-- Increased customer satisfaction
-
-</div>
 
 
 
