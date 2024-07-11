@@ -21,4 +21,4 @@ As a results-oriented Mechanical Engineer with a Bachelor's degree from Sant Lon
 {% include_relative _includes/publications.md %}
  {% include_relative _includes/projects.md %} 
 {% include_relative _includes/services.md %}
-{% include_relative _data/project-details/project1.ipynb %}
+
