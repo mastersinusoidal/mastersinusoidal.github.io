@@ -1,7 +1,7 @@
 main:
 
   - title: "Optimization of tractor production through strategic poka-yoke implementation"
-    authors: Gaurav Joshi, Harshit Joshi
+    authors: <strong>Gaurav Joshi</strong>, Harshit Joshi
     conference_short: Mahindra & Mahindra
     conference: Mahindra & Mahindra Ltd. 2024.
     pdf: https://arxiv.org/pdf/2306.00988.pdf
@@ -11,12 +11,56 @@ main:
     notes: Early Accept
 
   - title: "Microstructural Mechanical and Corrosion Characterization of Additively Manufactured Stainless Steel"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+    authors: <strong>Gaurav Joshi</strong>, Suyash Mishra, Siddharth Kumar, Prabhan Dua
     conference_short: SLIET
     conference: Sant Longowal Institute of Engineering and Technology, 2022.
     pdf: https://arxiv.org/pdf/2002.10211.pdf
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     page: https://class-il.mpi-inf.mpg.de/mnemonics/
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
+    notes: Published
+    image: ./assets/img/teaser_example.png
+
+  - title: "Investigations of deposition strategy on wire-arc additive manufacturing of austenitic stainless steel components"
+    authors: <strong>Gaurav Joshi</strong>, Suyash Mishra, Siddharth Kumar, Prabhan Dua
+    conference_short: SLIET
+    conference: Sant Longowal Institute of Engineering and Technology, 2022.
+    pdf: https://arxiv.org/pdf/2002.10211.pdf
+    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Published
+    image: ./assets/img/teaser_example.png
+
+  - title: "Suspension Design of All-Terrain Vehicle (ATV)"
+    authors: <strong>Gaurav Joshi</strong>
+    conference_short: BAJA SAE
+    conference: BAJA SAE, 2020.
+    pdf: https://arxiv.org/pdf/2002.10211.pdf
+    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Published
+    image: ./assets/img/teaser_example.png
+
+  - title: "Optimization of Continuously Variable Transmission (CVT)"
+    authors: <strong>Gaurav Joshi</strong>
+    conference_short: BAJA SAE
+    conference: BAJA SAE, 2020.
+    pdf: https://arxiv.org/pdf/2002.10211.pdf
+    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Published
+    image: ./assets/img/teaser_example.png
+
+  - title: "Optimization of Continuously Variable Transmission (CVT)"
+    authors: <strong>Gaurav Joshi</strong>
+    conference_short: BAJA SAE
+    conference: BAJA SAE, 2020.
+    pdf: https://arxiv.org/pdf/2002.10211.pdf
+    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    notes: Published
     image: ./assets/img/teaser_example.png
