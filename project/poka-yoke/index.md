@@ -57,11 +57,16 @@ permalink: /project/poka-yoke/
   }
 </style>
 
-<div class="content">
-  # Welcome to My GitHub Pages Site
+# Optimization of Tractor Production through Strategic Poka-Yoke Implementation
 
-hu lu lu lu 
-</div>
+**Devised and implemented poka-yokes** in a production facility handling over 100 tractor variants. Developed a **barcode scanning system** for part verification and integrated a comprehensive database with **SAP’s BOM**. Collaborated with programming and stores teams to improve part identification, stacking, and tagging methods. This significantly mitigated the risk of incorrect part feeding.
+
+**Training of operators** on the new system led to:
+- Enhanced production efficiency
+- Reduced complaint reports
+- Improved product quality
+- Increased customer satisfaction
+
 
 
 
