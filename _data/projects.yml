@@ -4,7 +4,7 @@ main:
     authors: <strong>Gaurav Joshi</strong>, Harshit Joshi
     conference_short: Mahindra & Mahindra
     conference: Mahindra & Mahindra Ltd. 2024.
-    code: ({% post_url 2024-07-11-poka-yoke-optimization %})
+    code: [More]({% post_url 2024-07-11-poka-yoke-optimization %})
     image: ./assets/img/teaser_example_2.png
 
   - title: "Microstructural Mechanical and Corrosion Characterization of Additively Manufactured Stainless Steel"
