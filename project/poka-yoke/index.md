@@ -23,7 +23,7 @@ permalink: /project/poka-yoke/
   }
 
   h1, h2, h3 {
-      color: #0056b3;
+      color: #000000;
       margin-top: 20px; /* Set top margin for headings */
   }
 
