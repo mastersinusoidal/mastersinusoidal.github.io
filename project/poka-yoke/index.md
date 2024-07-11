@@ -6,6 +6,17 @@ permalink: /project/poka-yoke/
 
 <!-- Inline CSS for customization -->
 <style>
+    .responsive-img {
+            width: 100%;
+            max-width: 800px; /* Maximum width for larger screens */
+            height: auto; /* Maintain aspect ratio */
+        }
+     .caption {
+            font-family: 'Arial', sans-serif; /* Change this to any font you prefer */
+            font-size: 14px;
+            text-align: center;
+            margin-top: 10px;
+     }
   body {
       font-family: Arial, sans-serif;
       background-color: #FFFFFF;
