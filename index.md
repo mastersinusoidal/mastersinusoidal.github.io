@@ -23,4 +23,4 @@ As a results-oriented Mechanical Engineer with a Bachelor's degree from Sant Lon
 {% include_relative _includes/services.md %}
 
 
-[Link text]({% post_url 2024-07-11-poka-yoke-optimization %})
+
