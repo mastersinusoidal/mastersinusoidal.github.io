@@ -12,5 +12,5 @@ title: My Projects
 
 - {% for detail in project.details %}{{ detail }}{% if forloop.last == false %},{% endif %}{% endfor %}
 
-Link to Project
-{% endfor %}
+
+
