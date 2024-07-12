@@ -99,11 +99,11 @@ permalink: /project/suspension-atv/
     display: none;
   }
   tr {
-    display: block;
+    display: none;
     margin-bottom: 10px;
   }
   td {
-    display: block;
+    display: none;
     text-align: right;
     padding-left: 50%;
     position: relative;
