@@ -11,22 +11,14 @@ main:
     authors: <strong>Gaurav Joshi</strong>, Suyash Mishra, Siddharth Kumar, Prabhan Dua
     conference_short: SLIET
     conference: Sant Longowal Institute of Engineering and Technology, 2022.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Published
+    code: https://mastersinusoidal.github.io/project/material-characterization/
     image: ./assets/img/teaser_example.png
 
   - title: "Investigations of deposition strategy on wire-arc additive manufacturing of austenitic stainless steel components"
     authors: <strong>Gaurav Joshi</strong>, Suyash Mishra, Siddharth Kumar, Prabhan Dua
     conference_short: SLIET
     conference: Sant Longowal Institute of Engineering and Technology, 2022.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Published
+    code: https://mastersinusoidal.github.io/project/waam-deposition/
     image: ./assets/img/teaser_example.png
 
   - title: "Suspension Design of All-Terrain Vehicle (ATV)"
