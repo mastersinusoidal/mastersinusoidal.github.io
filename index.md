@@ -4,12 +4,12 @@ layout: homepage
 
 ## About Me
 
-As a results-oriented Mechanical Engineer with a Bachelor's degree from Sant Longowal Institute of Engineering and Technology [SLIET], I bring a strong academic background and practical experience in the field. My work spans various facets of mechanical engineering, including project management, design optimization, and quality assurance.
+With a background in mechanical engineering, I specialize in additive manufacturing, vehicle dynamics, and manufacturing process optimization. I am passionate about advanced numerical simulations and developing innovative engineering solutions.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Materials:** Additive Manufacturing, Material characterization 
+- **Numerical Simulations:** Optimizations, Motion simulations, CFD simulations
 
 ## Work Experience
 
