@@ -4,8 +4,6 @@ main:
     authors: Gaurav Joshi, A.S. Shahi 
     conference_short: AFTMME
     conference: International Conference on Advancements and Futuristic Trends in Mechanical and Materials Engineering <strong>(AFTMME)</strong>, 2021.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    pdf: https://doi.org/10.1016/j.matpr.2022.04.285
+    image: ./assets/img/ang-dist.png
     notes: Published
