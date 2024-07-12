@@ -21,6 +21,13 @@ main:
     code: https://mastersinusoidal.github.io/project/waam-deposition/
     image: ./assets/img/waam-deposition.png
 
+  - title: "Analytical design and computational modelling of cooling system for combat vehicle using porous medium technique"
+    authors: <strong>Gaurav Joshi</strong>
+    conference_short: VRDE
+    conference: Vehicles Research & Development Establishment, 2022.
+    code: https://mastersinusoidal.github.io/project/material-characterization/
+    image: ./assets/img/teaser_example.png
+
   - title: "Suspension Design of All-Terrain Vehicle (ATV)"
     authors: <strong>Gaurav Joshi</strong>
     conference_short: BAJA SAE
