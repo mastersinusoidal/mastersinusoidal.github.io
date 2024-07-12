@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suspension Design of All-Terrain Vehicle (ATV)</title>
+</head>
+<body>
+    <h1>Suspension Design of All-Terrain Vehicle (ATV)</h1>
+    <h2>Introduction</h2>
+    <p>The suspension system of an All-Terrain Vehicle (ATV) is a critical component that contributes to the vehicle’s stability, ride comfort, and handling. The design and optimization of the suspension system are crucial to the overall performance of the ATV. This report presents a detailed analysis of the suspension system for the ATV designed by the team from Sant.</p>
+    
+    <h2>Objectives</h2>
+    <ul>
+        <li><strong>Selection of Suitable Suspension Type:</strong> The type of suspension should be chosen in accordance with the stipulations of the rules.</li>
+        <li><strong>Development of a Simplified and Effective Suspension System:</strong> The suspension system should be designed to be straightforward, provide excellent guidance, and possess superior shock absorption capabilities.</li>
+        <li><strong>Optimization of Suspension Hard Points:</strong> The hard points of the suspension need to be optimized to enhance the vehicle’s handling stability and ride smoothness.</li>
+        <li><strong>Minimization of Changes in Wheel Alignment Parameters:</strong> The dynamic range of wheel alignment parameters, including wheel camber angle, wheel toe angle, kingpin inclination angle, and kingpin caster angle, should be minimized to bolster the car’s steering stability under a variety of operating conditions.</li>
+        <li><strong>Enhancement of Anti-Roll Performance:</strong> The roll angle stiffness of the suspension should be improved to boost lateral stability during turning and when encountering obstacles.</li>
+        <li><strong>Realization of Lightweight Design:</strong> The structure should be as simplified as possible and the weight reduced, while still complying with the rules and ensuring structural strength.</li>
+        <li><strong>Establishment of Anticipated Suspension Performance:</strong> A set of suspension hard points and parameters should be determined, and the expected suspension performance, such as the roll angle under extreme cornering conditions and wheel alignment parameters during tire bounce, should be set.</li>
+        <li><strong>Execution of Motion Simulation and Analysis:</strong> Modeling should be performed in ADAMS, followed by motion simulation. The simulation results should be analyzed to ensure they meet the expected suspension performance. If they do not, the initial suspension hard points and parameters should be modified, and the modified suspension parameters should be used for modeling and motion simulation until the simulation results align with the expected suspension performance.</li>
+    </ul>
+    
+    <h2>Suspension System Design</h2>
+    <p>The suspension system of the ATV is designed to absorb shocks and maintain contact between the tires and the ground. The design parameters for the suspension system are as follows:</p>
+    
+    <h3>Suspension Parameters</h3>
+    <table border="1">
+        <tr>
+            <th>Parameter</th>
+            <th>Front</th>
+            <th>Rear</th>
+        </tr>
+        <tr>
+            <td>Suspension Type</td>
+            <td>Double Wishbone (SLA)</td>
+            <td>H-Arm with Camber Link</td>
+        </tr>
+        <tr>
+            <td>Tire Size and Type</td>
+            <td>23x7-10 Carlisle tyres</td>
+            <td>23x7-10 Carlisle tyres</td>
+        </tr>
+        <tr>
+            <td>Wheels (width, construction)</td>
+            <td>144mm (5.7") wide, Forged Al, 3/2 offset</td>
+            <td>144mm (5.7") wide, Forged Al, 3/2 offset</td>
+        </tr>
+        <tr>
+            <td>Center of Gravity Design Height</td>
+            <td>660.4 mm (27") above ground (confirmed with testing (tip method))</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Vertical Wheel Travel (over the travel)</td>
+            <td>203.2 mm (8") jounce/ 50.8 mm (2") rebound</td>
+            <td>152.4 mm (6") jounce/ 50.8 mm (2") rebound</td>
+        </tr>
+        <tr>
+            <td>Recessional Wheel travel (over the travel)</td>
+            <td>76.2mm (3")</td>
+            <td>101.6mm (4")</td>
+        </tr>
+        <tr>
+            <td>Total track change (over the travel)</td>
+            <td>50.8 mm(2")</td>
+            <td>25.4mm (1")</td>
+        </tr>
+        <tr>
+            <td>Wheel rate (chassis to wheel center)</td>
+            <td>4.98 N/mm (28.44 lbs/in)</td>
+            <td>7.47 N/mm (42.65 lbs/in)</td>
+        </tr>
+        <tr>
+            <td>Spring Rate</td>
+            <td>14.78 N/mm (84.4 lbs/in)</td>
+            <td>22.18 N/mm (126.65 lbs/in)</td>
+        </tr>
+        <tr>
+            <td>Motion ratio / type</td>
+            <td>0.6 / linear</td>
+            <td>0.6 average 0.4-0.7 actual progressive rate</td>
+        </tr>
+        <tr>
+            <td>Roll rate (chassis to wheel center)</td>
+            <td>6.34 degrees per g</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sprung mass natural frequency</td>
+            <td>1.2 Hz</td>
+            <td>1.35 Hz</td>
+        </tr>
+        <tr>
+            <td>Type of Jounce Damping</td>
+            <td>High and low speed adjustable</td>
+            <td>High and low speed adjustable</td>
+        </tr>
+        <tr>
+            <td>Type of Rebound Damping</td>
+            <td>Low Speed adjustable</td>
+            <td>Fixed</td>
+        </tr>
+        <tr>
+            <td>Roll Camber (deg / deg)</td>
+            <td>1.72 deg / deg</td>
+            <td>0.5 deg /deg</td>
+        </tr>
+        <tr>
+            <td>Static Toe</td>
+            <td>0 deg toe</td>
+            <td>1 deg toe</td>
+        </tr>
+        <tr>
+            <td>Toe change (over the travel)</td>
+            <td>0 deg</td>
+            <td>0 deg</td>
+        </tr>
+        <tr>
+            <td>Static camber and adjustment method</td>
+            <td>0 deg, adj. via double wishbone</td>
+            <td>0 deg, non-adjustable</td>
+        </tr>
+        <tr>
+            <td>Camber Change (over the travel)</td>
+            <td>8 degrees</td>
+            <td>6 degrees</td>
+        </tr>
+        <tr>
+            <td>Static Caster Angle</td>
+            <td>0 degrees, non-adjustable</td>
+            <td>0 degrees, non-adjustable</td>
+        </tr>
+        <tr>
+            <td>Caster Change (over the travel)</td>
+            <td>0 degrees</td>
+            <td>0 degrees</td>
+        </tr>
+        <tr>
+            <td>Static Kingpin Inclination Angle</td>
+            <td>10 degrees non-adjustable</td>
+            <td>No Kingpin</td>
+        </tr>
+        <tr>
+            <td>Static Kingpin Offset</td>
+            <td>10 mm (0.39")</td>
+            <td>No Kingpin</td>
+        </tr>
+        <tr>
+            <td>Static Scrub Radius</td>
+            <td>10 mm (0.39")</td>
+            <td>No Kingpin</td>
+        </tr>
+        <tr>
+            <td>Static Percent Ackermann</td>
+            <td>222%</td>
+            <td>None</td>
+        </tr>
+        <tr>
+            <td>Percent Anti dive / Anti Squat</td>
+            <td>15% Anti dive</td>
+            <td>0% Anti Squat</td>
+        </tr>
+        <tr>
+            <td>Static Roll Center Position</td>
+            <td>197.1mm (7.76") above ground</td>
+            <td>141.7 mm (5.58") above ground</td>
+        </tr>
+    </table>
+
+
+<div class="figure">
+		<img src="https://mastersinusoidal.github.io/project/suspension-atv/img1.png" alt="Front Roll center height " style="display: block; margin-left: auto; margin-right: auto"; class="responsive-img">
+    <div class="caption">Figure 1: Front Roll center height </div>
+        </div>
+
+<div class="figure">
+		<img src="https://mastersinusoidal.github.io/project/suspension-atv/img2.png" alt="Rear Roll center height " style="display: block; margin-left: auto; margin-right: auto"; class="responsive-img">
+    <div class="caption">Figure 2: Rear Roll center height </div>
+        </div>
+
+<div class="figure">
+		<img src="https://mastersinusoidal.github.io/project/suspension-atv/img3.png" alt="Front Suspension Geometry " style="display: block; margin-left: auto; margin-right: auto"; class="responsive-img">
+    <div class="caption">Figure 3: Front Suspension Geometry</div>
+        </div>
+
+<div class="figure">
+		<img src="https://mastersinusoidal.github.io/project/suspension-atv/img4.png" alt="Rear Suspension Geometry " style="display: block; margin-left: auto; margin-right: auto"; class="responsive-img">
+    <div class="caption">Figure 4: Rear Suspension Geometry</div>
+        </div>
+<div class="figure">
+		<img src="https://mastersinusoidal.github.io/project/suspension-atv/img5.png" alt="Front Camber vs Wheel travel  " style="display: block; margin-left: auto; margin-right: auto"; class="responsive-img">
+    <div class="caption">Figure 5: Front Camber vs Wheel travel </div>
+        </div>
+
+<div class="figure">
+		<img src="https://mastersinusoidal.github.io/project/suspension-atv/img6.png" alt="Rear Camber vs Wheel travel  " style="display: block; margin-left: auto; margin-right: auto"; class="responsive-img">
+    <div class="caption">Figure 6: Rear Camber vs Wheel travel </div>
+        </div>
+
+       <h2>Suspension System Analysis</h2>
+    <p>The suspension components were subjected to various forces during the operation of the ATV. The components were analyzed using CAE tools to ensure their structural integrity under these forces. The force applied on the wishbones was 1G, and the maximum stress observed was 552.35Mpa, resulting in a factor of safety of 1.245.</p>
+<div class="figure">
+		<img src="https://mastersinusoidal.github.io/project/suspension-atv/img7.png" alt="Static Structural Analysis of Lower Wishbone  " style="display: block; margin-left: auto; margin-right: auto"; class="responsive-img">
+    <div class="caption">Figure 7: Static Structural Analysis of Lower Wishbone </div>
+        </div>
+    
+    <h2>Suspension System Validation</h2>
+    <p>The suspension system was validated through several tests including:</p>
+    <ul>
+        <li><strong>Gradeability Test:</strong> The ATV was run on a 30° ramp to validate the gradeability of the suspension system.</li>
+        <li><strong>Drop Test:</strong> The vehicle was lifted to a height of 10 ft from the ground level and dropped to test the shock-absorbing capacity of the suspension system.</li>
+        <li><strong>Suspension & Traction Test:</strong> The ATV was driven through obstacles to test the suspension system’s response to different terrains.</li>
+    </ul>
+    
+    <h2>Conclusion</h2>
+    <p>The suspension system of the ATV was successfully designed, analyzed, and validated. The system performed well in all the tests, demonstrating its ability to withstand various terrains and conditions. The team will continue to optimize the suspension system to further improve the ATV’s performance.</p>
+
+<div class="video-container">
+        <iframe src="https://www.youtube.com/embed/r0IT3qnWyO0" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
