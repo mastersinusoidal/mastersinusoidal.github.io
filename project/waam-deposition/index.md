@@ -128,6 +128,7 @@ permalink: /project/waam-deposition/
     height: 0;
     overflow: hidden;
     max-width: 100%;
+    margin: 0 auto;
 }
 
 .video-container iframe {
