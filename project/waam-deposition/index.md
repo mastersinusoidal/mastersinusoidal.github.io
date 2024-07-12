@@ -8,7 +8,7 @@ permalink: /project/waam-deposition/
 <style>
     .responsive-img {
             width: 85%;
-            max-width: 500px; /* Maximum width for larger screens */
+            max-width: 400px; /* Maximum width for larger screens */
             height: auto; /* Maintain aspect ratio */
         }
      .caption {
