@@ -12,7 +12,7 @@ main:
     conference_short: SLIET
     conference: Sant Longowal Institute of Engineering and Technology, 2022.
     code: https://mastersinusoidal.github.io/project/material-characterization/
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/material-characterization.png
 
   - title: "Investigations of deposition strategy on wire-arc additive manufacturing of austenitic stainless steel components"
     authors: <strong>Gaurav Joshi</strong>, Suyash Mishra, Siddharth Kumar, Prabhan Dua
