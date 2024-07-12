@@ -104,7 +104,7 @@ permalink: /project/suspension-atv/
     height: 0;
     overflow: hidden;
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0 auto; /* Center the container */
 }
 
 .video-container iframe {
