@@ -3,7 +3,15 @@ layout: default
 title: Home
 permalink: /project/material-characterization/
 ---
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimental studies on microstructural and corrosion characterisation of 
+additively manufactured AISI 316 L austenitic stainless steel
+</title>
+</head>
 <!-- Inline CSS for customization -->
 <style>
   body {
