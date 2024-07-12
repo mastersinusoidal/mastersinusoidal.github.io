@@ -3,7 +3,7 @@ layout: default
 title: Home
 permalink: /project/material-characterization/
 ---
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
