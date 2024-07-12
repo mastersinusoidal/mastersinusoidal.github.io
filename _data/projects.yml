@@ -34,25 +34,3 @@ main:
     conference: BAJA SAE, 2020.
     code: https://mastersinusoidal.github.io/project/suspension-atv/
     image: ./assets/img/suspension-atv.png
-
-  - title: "Optimization of Continuously Variable Transmission (CVT)"
-    authors: <strong>Gaurav Joshi</strong>
-    conference_short: BAJA SAE
-    conference: BAJA SAE, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Published
-    image: ./assets/img/teaser_example.png
-
-  - title: "Optimization of Continuously Variable Transmission (CVT)"
-    authors: <strong>Gaurav Joshi</strong>
-    conference_short: BAJA SAE
-    conference: BAJA SAE, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Published
-    image: ./assets/img/teaser_example.png
