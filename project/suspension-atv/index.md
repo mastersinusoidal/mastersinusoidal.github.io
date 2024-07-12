@@ -89,38 +89,38 @@ permalink: /project/suspension-atv/
       background-color: #f1f1f1;
     }
 
-    /* Responsive styling */
-    @media only screen and (max-width: 600px) {
-      table, thead, tbody, th, td, tr {
-        display: block;
-      }
-      thead tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-      }
-      tr {
-        border: 1px solid #ccc;
-        margin-bottom: 10px;
-      }
-      td {
-        border: none;
-        border-bottom: 1px solid #eee;
-        position: relative;
-        padding-left: 50%;
-        text-align: right;
-      }
-      td:before {
-        position: absolute;
-        top: 12px;
-        left: 12px;
-        width: 45%;
-        padding-right: 10px;
-        white-space: nowrap;
-        text-align: left;
-        font-weight: bold;
-      }
-    }
+  /* Responsive styling */
+@media only screen and (max-width: 600px) {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  thead {
+    display: none;
+  }
+  tr {
+    display: block;
+    margin-bottom: 10px;
+  }
+  td {
+    display: block;
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    border: 1px solid #ccc;
+  }
+  td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 10px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+  }
+}
+
 
 .video-container {
     position: relative;
