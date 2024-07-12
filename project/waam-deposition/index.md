@@ -71,11 +71,11 @@ permalink: /project/waam-deposition/
       width: 100%;
       border-collapse: collapse;
       margin: 20px 0;
-      font-size: 18px;
+      font-size: 8px;
       text-align: left;
     }
     th, td {
-      padding: 12px;
+      padding: 5px;
       border-bottom: 1px solid #ddd;
     }
     th {
@@ -120,9 +120,6 @@ permalink: /project/waam-deposition/
         text-align: left;
         font-weight: bold;
       }
-      td:nth-of-type(1):before { content: "First Name"; }
-      td:nth-of-type(2):before { content: "Last Name"; }
-      td:nth-of-type(3):before { content: "Age"; }
     }
 
 
