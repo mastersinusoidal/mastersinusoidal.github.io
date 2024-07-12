@@ -25,7 +25,7 @@ main:
     authors: <strong>Gaurav Joshi</strong>
     conference_short: VRDE
     conference: Vehicles Research & Development Establishment, 2022.
-    code: https://mastersinusoidal.github.io/project/material-characterization/
+    code: https://mastersinusoidal.github.io/project/combat-cfd/
     image: ./assets/img/teaser_example.png
 
   - title: "Suspension Design of All-Terrain Vehicle (ATV)"
