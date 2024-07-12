@@ -11,12 +11,12 @@ As a results-oriented Mechanical Engineer with a Bachelor's degree from Sant Lon
 - **Computer Vision:** image recognition, image generation, video captioning
 - **Machine Learning:** meta-learning, incremental learning, transfer learning
 
-## News
+## Work Experience
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Aug 2023-Mar 2024]** Assistant Manager, Mahindra & Mahindra Ltd.
+- **[Aug 2022-Aug 2023]** Graduate Trainee, Mahindra & Mahindra Ltd.
+- **[Feb 2022-June 2022]** Intern, Vehicles R&D Establishment
+- **[Jul 2021-Aug 2021]** Intern, TEMA India Ltd.
 
 {% include_relative _includes/publications.md %}
  {% include_relative _includes/projects.md %} 
