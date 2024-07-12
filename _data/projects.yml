@@ -26,7 +26,7 @@ main:
     conference_short: VRDE
     conference: Vehicles Research & Development Establishment, 2022.
     code: https://mastersinusoidal.github.io/project/combat-cfd/
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/combat-cfd.png
 
   - title: "Suspension Design of All-Terrain Vehicle (ATV)"
     authors: <strong>Gaurav Joshi</strong>
