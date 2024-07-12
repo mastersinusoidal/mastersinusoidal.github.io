@@ -95,31 +95,7 @@ permalink: /project/suspension-atv/
     width: 100%;
     border-collapse: collapse;
   }
-  thead {
-    display: none;
-  }
-  tr {
-    display: inline;
-    margin-bottom: 10px;
-  }
-  td {
-    display: inline;
-    text-align: right;
-    padding-left: 50%;
-    position: relative;
-    border: 1px solid #ccc;
-  }
-  td:before {
-    content: attr(data-label);
-    position: absolute;
-    left: 10px;
-    width: 45%;
-    padding-right: 10px;
-    white-space: nowrap;
-    text-align: left;
-    font-weight: bold;
-  }
-}
+
 
 
 .video-container {
