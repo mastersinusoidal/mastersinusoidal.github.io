@@ -8,7 +8,7 @@ permalink: /project/moving-heat/
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Analytical design and computational modelling of cooling system for combat vehicle using porous medium technique 
+    <title> Modelling of Heat flow during Welding using ANSYS
 </title>
 </head>
 <!-- Inline CSS for customization -->
