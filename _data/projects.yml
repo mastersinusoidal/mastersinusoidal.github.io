@@ -34,3 +34,10 @@ main:
     conference: BAJA SAE, 2020.
     code: https://mastersinusoidal.github.io/project/suspension-atv/
     image: ./assets/img/suspension-atv.png
+
+  - title: "Modelling of Heat flow during Welding using ANSYS"
+    authors: <strong>Gaurav Joshi</strong>
+    conference_short: SLIET
+    conference: Sant Longowal Institute of Engineering and Technology, 2022.
+    code: https://mastersinusoidal.github.io/project/moving-heat/
+    image: ./assets/img/moving-heat.png
