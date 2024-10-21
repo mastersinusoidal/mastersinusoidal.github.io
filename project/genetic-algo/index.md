@@ -29,7 +29,9 @@ permalink: /project/genetic-algo/
     </style>
 <body>
     <div class="content" id="content"></div>
-
+<iframe src="Genetic_algorithm.pdf" width="100%" height="800px">
+        This browser does not support PDFs. Please download the PDF to view it: <a href="Genetic_algorithm.pdf">Download PDF</a>.
+    </iframe>
     <script>
         // Function to load content from an external file
         function loadContent() {
